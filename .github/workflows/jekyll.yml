@@ -33,6 +33,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
+        branch: gh-pages
         email: ourfor@qq.com
         jekyll: no
         commit_message: 📝 update site
