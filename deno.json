@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowNet": true
+  },
+  "imports": {
+    "/": "./",
+    "./": "./",
+    "std/": "https://deno.land/std@0.215.0/",
+    "cheerio": "https://deno.land/x/cheerio@1.0.7/mod.ts",
+    "denodb": "https://deno.land/x/denodb/mod.ts",
+    "progress": "https://deno.land/x/progress@v1.4.4/mod.ts",
+    "logger": "https://deno.land/x/logger@v1.1.5/logger.ts"
+  },
+  "tasks": {
+    "dev": "deno run --watch src/main.ts",
+    "start": "deno run --allow-all --unstable-ffi src/main.ts"
+  }
+}

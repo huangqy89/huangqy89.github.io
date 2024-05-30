@@ -60,7 +60,7 @@
     }
 
     &::before {
-      content: 'arXiv';
+      content: var(--remark);
       display: block;
       position: absolute;
       background-color: #b509ac;

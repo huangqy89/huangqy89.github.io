@@ -1,0 +1,78 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: " list" }}__item">
+  <div class="archive-item-body">
+    {% if post.remark %}
+    <div class="article-poster" style="--remark: '{{ post.remark }}'">
+    {% else %}
+    <div class="article-poster">
+    {% endif %}
+      {% if post.poster %}
+      <img src="{{ post.poster }}" alt="">
+      {% endif %}
+    </div>
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src={% if teaser contains "://" %} "{{ teaser }}" {% else %} "{{ teaser | prepend: " /images/" | prepend:
+          base_path }}" {% endif %} alt="">
+      </div>
+      {% endif %}
+
+      <h3 class="archive__item-title" itemprop="headline">
+        {{ title }}
+      </h3>
+
+      <p class="author">
+      {{post.author}}
+      </p>
+
+      {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+
+      {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">
+      <p>{{ post.excerpt | markdownify | remove: '
+      <p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+      </p>
+      </p>
+      {% endif %}
+
+      <div class="article-action">
+        {% if post.citation and post.paperurl and post.slidesurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF</a> <a
+            href="{{ post.slidesurl }}">Slides</a></p>
+        {% elsif post.citation and post.paperurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a></p>
+        {% elsif post.citation and post.slidesurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a></p>
+        {% elsif post.citation %}
+        <p>Recommended citation: {{ post.citation }}</p>
+        {% elsif post.paperurl %}
+        <p><a href=" {{ post.paperurl }} ">PDF</a></p>
+        {% elsif post.slidesurl %}
+        <p>Download <a href="{{ post.slidesurl }}">Slides</a></p>
+        </p>
+        {% endif %}
+      </div>
+
+    </article>
+  </div>
+</div>
