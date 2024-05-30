@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Qianyi Huang / Personal Website"
+title                    : "Qianyi Huang's Homepage"
 title_separator          : "-"
 name                     : &name "Qianyi Huang"
 description              : &description "personal description"
