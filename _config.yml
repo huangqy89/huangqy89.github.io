@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Qianyi Huang / Site"
+title                    : "Qianyi Huang / Personal Website"
 title_separator          : "-"
 name                     : &name "Qianyi Huang"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "citations.jpeg"
   name             : "Qianyi Huang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "School of Computer Science and Engineering, Sun Yat-sen University (SYSU)"
   location         : "Guangzhou, China"
   employer         : "Sun Yat-sen University"
   uri              : # URL
@@ -206,9 +206,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -217,16 +217,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -255,7 +255,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: student
     values:
       layout: single
       author_profile: true

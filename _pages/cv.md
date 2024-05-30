@@ -11,26 +11,20 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Postdoc in Computer Science and Engineering, HKUST, 2019
+* Ph.D. in Computer Science and Engineering, HKUST, 2018
+* B.S. in Computer Science and Engineering, Shanghai Jiao Tong University, 2013
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* December 2022: Associate professor
+  * Sun Yat-sen University
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* November 2019: A research track faculty
+  * Southern University of Science and Technology
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* September 2018: Postdoctoral researcher
+  * Hong Kong University of Science and Technology 
   
 Skills
 ======
