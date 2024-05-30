@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Project"
+permalink: /project/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.project == null or site.project == empty %}
+    <p>No projects found.</p>
+{% else %}
+    {% assign sorted_project = site.project | sort: 'order' %}
+    {% for post in sorted_project %}
+    {% include project-item.html %}
+    {% endfor %}
+{% endif %}
