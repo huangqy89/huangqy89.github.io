@@ -7,8 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
+{% assign sorted_students = site.student | sort: 'order' %}
+{% for post in sorted_students %}
   {% include archive-single.html %}
 {% endfor %}
 
