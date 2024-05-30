@@ -1,5 +1,5 @@
 ---
-title: "Digital circuit and logic design"
+title: "Computer network"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-fall-teaching
