@@ -1,5 +1,5 @@
 ---
-title: "Computer network"
+title: "Computer Networks"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-fall-teaching
