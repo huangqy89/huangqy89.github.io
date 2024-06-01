@@ -1,5 +1,5 @@
 ---
-title: "Digital circuit and logic design"
+title: "Digital Circuit and Logic Design"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching
