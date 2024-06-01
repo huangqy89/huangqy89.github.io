@@ -21,7 +21,7 @@ repository               : "huangqy89/huangqy89.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "citations.jpeg"
+  avatar           : "photo.jpg"
   name             : "Qianyi Huang"
   pronouns         : # example: "she/her"  
   bio              : "School of Computer Science and Engineering, Sun Yat-sen University (SYSU)"
