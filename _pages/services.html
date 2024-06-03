@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Services"
+permalink: /services/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.services == null or site.services == empty %}
+    <p>No service found.</p>
+{% else %}
+{% assign sorted_service = site.services | sort: 'date' %}
+{% for post in sorted_service %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+

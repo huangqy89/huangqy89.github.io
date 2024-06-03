@@ -1,19 +1,19 @@
 # main links links
 main:
+  - title: "Project"
+    url: /project/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Student"
-    url: /student/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Project"
-    url: /project/
+    url: /teaching/ 
+
+  - title: "Students"
+    url: /student/ 
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Services"
+    url: /services/ 

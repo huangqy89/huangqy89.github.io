@@ -107,6 +107,10 @@
   &>article {
     padding: 0.25rem 0.5rem;
   }
+
+  .publication-title, .no-link {
+    text-decoration: none !important;
+  }
 }
 
 .archive__item-title {

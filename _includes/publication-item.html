@@ -31,7 +31,7 @@
       </div>
       {% endif %}
 
-      <h3 class="archive__item-title" itemprop="headline">
+      <h3 class="archive__item-title publication-title" itemprop="headline">
         {{ title }}
       </h3>
 
@@ -56,6 +56,9 @@
       {% endif %}
 
       <div class="article-action">
+        {% if post.external_url %}
+        <p><a href="{{ post.external_url }}">External Link</a></p>
+        {% endif %}
         {% if post.citation and post.paperurl and post.slidesurl %}
         <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF</a> <a
             href="{{ post.slidesurl }}">Slides</a></p>

@@ -313,3 +313,73 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.inline-list-item {
+  display: inline-block;
+
+  &::before {
+    content: "•";
+    margin-right: 0.25em;
+    font-size: 1.5rem;
+  }
+
+  &>p {
+    display: inline;
+    font-weight: normal;
+  }
+
+  &>.job {
+    margin-left: 2rem;
+  }
+}
+
+.teaching-item {
+  margin-top: 1rem;
+  display: flex;
+  .image {
+    width: 10rem;
+    height: 10rem;
+    background-color: #efefefef;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .description {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    .title {
+      font-size: 1.25rem;
+      // text-align: center;
+    }
+
+    p {
+      margin: unset;
+    }
+
+    .content, .content > p {
+      font-size: 0.95rem;
+      font-weight: lighter;
+      color: gray;
+    }
+
+    .button {
+        border-radius: 0.15rem;
+        text-decoration: none;
+        color: var(--global-text-color);
+        border: 1px solid #000000;
+        font-size: .64rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        margin-left: 0;
+  
+        &:hover {
+          color: #c58eea;
+          border-color: #c58eea;
+        }
+    }
+  }
+}

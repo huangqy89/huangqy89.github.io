@@ -215,6 +215,9 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
+  services:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -256,6 +259,15 @@ defaults:
       share: true
       comments: true
   # _student
+  - scope:
+      path: ""
+      type: student
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _services
   - scope:
       path: ""
       type: student
