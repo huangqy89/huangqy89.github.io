@@ -1,6 +1,6 @@
 ---
 title: "Zhicheng Luo"
-excerpt: "MSc, SUSTech, 2020.09-"
+excerpt: "Master, SUSTech, 2020.09-2023.06 (Fist Job @ SYSU)"
 collection: student
 order: 5
 ---
