@@ -1,7 +1,7 @@
 ---
 title: "Hengxin Wu"
-excerpt: "MSc, SUSTech, 2021.09-"
+excerpt: "Master, SUSTech, 2021.09-2024.06"
 collection: student
-job: "Honor Device Co., Ltd"
+job: "(First Job @Honor Device Co., Ltd)"
 order: 4
 ---
