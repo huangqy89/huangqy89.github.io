@@ -334,6 +334,9 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .teaching-item {
+  &:not(:first-child) {
+    margin-top: 4rem;
+  }
   margin-top: 1rem;
   display: flex;
   .image {
@@ -411,11 +414,15 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .talks-item {
   display: flex;
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
   &::before {
     content: "•";
     margin-top: 0.25rem;
     margin-right: 0.25em;
     font-size: 1.5rem;
+    flex-shrink: 0;
     width: 1rem;
     height: 1rem;
     display: flex;

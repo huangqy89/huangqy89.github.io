@@ -16,9 +16,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <span>
       {{ title }}
+    {% if post.datetime %}, {{ post.datetime }}{% endif %}
+    {% if post.venue %}, {{ post.venue }}{% endif %}
+    {% if post.excerpt %}, {{ post.excerpt | markdownify }}{% endif %}
     </span>
-    {% if post.datetime %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.datetime }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
