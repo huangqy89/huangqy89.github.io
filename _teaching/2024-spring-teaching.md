@@ -6,4 +6,5 @@ permalink: /teaching/2024-spring-teaching
 time: "Spring 2024"
 date: 2024-03-01
 location: "Guangzhou, China"
+poster: /images/courses/digital-circuits.jpg
 ---

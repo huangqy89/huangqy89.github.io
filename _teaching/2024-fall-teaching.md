@@ -8,4 +8,5 @@ excerpt: "The principles and practice of computer networking, with emphasis on t
 time: "Fall 2024"
 date: 2024-09-01
 location: "Guangzhou, China"
+poster: /images/courses/computer-networks.png
 ---

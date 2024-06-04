@@ -338,10 +338,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   display: flex;
   .image {
     width: 10rem;
-    height: 10rem;
+    height: fit-content;
+    min-height: 2rem;
+    overflow: hidden;
     background-color: #efefefef;
     border-radius: 0.5rem;
     flex-shrink: 0;
+    flex-grow: 0;
   }
 
   .description {
@@ -403,5 +406,20 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     &>p {
       margin-right: 0.5rem;
     }
+  }
+}
+
+.talks-item {
+  display: flex;
+  &::before {
+    content: "•";
+    margin-top: 0.25rem;
+    margin-right: 0.25em;
+    font-size: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
