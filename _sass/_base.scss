@@ -364,6 +364,16 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       color: gray;
     }
 
+    .time {
+      font-size: 0.75rem;
+      font-weight: lighter;
+      color: rgba(60, 60, 60, 0.75);
+
+      &>i:not(:first-child) {
+        margin-left: 1rem;
+      }
+    }
+
     .button {
         border-radius: 0.15rem;
         text-decoration: none;

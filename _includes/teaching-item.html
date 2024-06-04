@@ -20,12 +20,12 @@
   </div>
   <div class="description">
     <div class="title">{{ title }}</div>
+    {% if post.time %}
+    <p class="time"><i class="fa fa-book" aria-hidden="true"></i> {{ post.type }} <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.time }}</p>
+    {% endif %}
+    
     {% if post.excerpt %}
     <div class="content">{{ post.excerpt | markdownify }}</div>
-    {% endif %}
-
-    {% if post.time %}
-    <p>{{ post.type }} {{ post.time }}</p>
     {% endif %}
     
     <div class="article-action">
