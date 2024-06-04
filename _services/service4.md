@@ -1,5 +1,5 @@
 ---
-title: "<strong>联合主席(Co-chair)</strong>"
+title: "<strong>Co-chair"
 collection: services
 type: "Talk"
 permalink: /services/2023-06
