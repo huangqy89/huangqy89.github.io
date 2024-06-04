@@ -383,3 +383,15 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     }
   }
 }
+
+.publication-item {
+  .publication-title {
+    font-size: 1.15rem;
+  }
+  .inline-item {
+    display: inline-flex;
+    &>p {
+      margin-right: 0.5rem;
+    }
+  }
+}

@@ -12,7 +12,7 @@
 {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: " list" }}__item">
+<div class="{{ include.type | default: " list" }}__item publication-item">
   <div class="archive-item-body">
     {% if post.remark %}
     <div class="article-poster" style="--remark: '{{ post.remark }}'">
@@ -43,7 +43,7 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
 
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>Published in <i>{{ post.venue }}</i></p>
 
       {% if post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -55,24 +55,12 @@
       </p>
       {% endif %}
 
-      <div class="article-action">
+      <div class="article-action inline-item">
         {% if post.external_url %}
-        <p><a href="{{ post.external_url }}">External Link</a></p>
+        <p><a href="{{ post.external_url }}"><i class="fa fa-link" aria-hidden="true"></i> Link</a></p>
         {% endif %}
-        {% if post.citation and post.paperurl and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF</a> <a
-            href="{{ post.slidesurl }}">Slides</a></p>
-        {% elsif post.citation and post.paperurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a></p>
-        {% elsif post.citation and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a></p>
-        {% elsif post.citation %}
-        <p>Recommended citation: {{ post.citation }}</p>
-        {% elsif post.paperurl %}
-        <p><a href=" {{ post.paperurl }} ">PDF</a></p>
-        {% elsif post.slidesurl %}
-        <p>Download <a href="{{ post.slidesurl }}">Slides</a></p>
-        </p>
+        {% if post.paperurl %}
+        <p><a href="{{ post.paperurl }}"><i class="fa fa-file" aria-hidden="true"></i> PDF</a></p>
         {% endif %}
       </div>
 
