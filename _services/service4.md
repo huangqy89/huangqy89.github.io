@@ -1,5 +1,5 @@
 ---
-title: "<strong>Co-chair"
+title: "<strong>Co-chair</strong>"
 collection: services
 type: "Talk"
 permalink: /services/2023-06
