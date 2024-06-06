@@ -11,7 +11,9 @@ author_profile: true
 
 {% endif %}
 
+<div class="talks-list">
 {% assign sorted_talks = site.talks | sort: 'order' | reversed %}
 {% for post in sorted_talks %}
   {% include talk-item.html %}
 {% endfor %}
+</div>

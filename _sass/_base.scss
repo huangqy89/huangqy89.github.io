@@ -337,7 +337,6 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   &:not(:first-child) {
     margin-top: 4rem;
   }
-  margin-top: 1rem;
   display: flex;
   .image {
     width: 10rem;
@@ -410,10 +409,21 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       margin-right: 0.5rem;
     }
   }
+
+  .publication-excerpt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+  }
 }
 
 .talks-item {
   display: flex;
+  &:first-child {
+    margin-top: 4rem;
+  }
+
   &:not(:first-child) {
     margin-top: 1rem;
   }
@@ -429,4 +439,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     align-items: center;
     justify-content: center;
   }
+}
+
+.teaching-list, .student-list, .talks-list, .services-list {
+  margin-top: 3rem;
 }

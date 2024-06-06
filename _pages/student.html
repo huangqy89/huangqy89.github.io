@@ -7,10 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-<ul>
+<div class="student-list">
 {% assign sorted_students = site.student | sort: 'order' %}
 {% for post in sorted_students reversed %}
   {% include student-item.html %}
 {% endfor %}
-</ul>
+</div>
 

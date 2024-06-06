@@ -7,7 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="teaching-list">
 {% assign sorted_teaching = site.teaching | sort: 'date' %}
 {% for post in sorted_teaching reversed %}
   {% include teaching-item.html %}
 {% endfor %}
+</div>

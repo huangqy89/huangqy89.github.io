@@ -16,9 +16,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <span>
       {{ title }}
-    {% if post.datetime %}, {{ post.datetime }}{% endif %}
     {% if post.venue %}, {{ post.venue }}{% endif %}
     {% if post.excerpt %}, {{ post.excerpt | markdownify }}{% endif %}
+    {% if post.datetime %}{{ post.datetime }}{% endif %}
     </span>
   </article>
 </div>

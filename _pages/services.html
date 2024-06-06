@@ -10,9 +10,12 @@ author_profile: true
 {% if site.services == null or site.services == empty %}
     <p>No service found.</p>
 {% else %}
+
+<div class="services-list">
 {% assign sorted_service = site.services | sort: 'order' | reversed %}
 {% for post in sorted_service %}
   {% include service-item.html %}
 {% endfor %}
+</div>
 {% endif %}
 
