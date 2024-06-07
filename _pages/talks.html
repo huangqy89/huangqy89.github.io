@@ -13,7 +13,7 @@ author_profile: true
 
 <div class="talks-list">
 {% assign sorted_talks = site.talks | sort: 'order' | reversed %}
-{% for post in sorted_talks %}
+{% for post in sorted_talks reversed %}
   {% include talk-item.html %}
 {% endfor %}
 </div>
