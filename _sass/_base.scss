@@ -400,8 +400,12 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .publication-item {
+  padding-top: 1.25rem;
   .publication-title {
     font-size: 1.15rem;
+  }
+  p {
+    margin-bottom: 0.5rem;
   }
   .inline-item {
     display: inline-flex;

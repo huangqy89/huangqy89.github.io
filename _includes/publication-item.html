@@ -12,7 +12,14 @@
 {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: " list" }}__item publication-item">
+{% if post.anchor %}
+{% assign anchor = post.anchor %}
+{% else %}
+{% assign filename = post.path | split: "/" | last | remove: ".md" %}
+{% assign anchor = filename | slugify %}
+{% endif %}
+
+<div id="{{ anchor }}" class="{{ include.type | default: " list" }}__item publication-item">
   <div class="archive-item-body">
     {% if post.remark %}
     <div class="article-poster" style="--remark: '{{ post.remark }}'">
