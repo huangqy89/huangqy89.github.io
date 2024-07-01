@@ -399,6 +399,19 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
 }
 
+.archive .project-item {
+  margin: 0 0 2rem 0;
+
+  .paper-list {
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .archive-item-body {
+    align-items: flex-start;
+  }
+}
+
 .publication-item {
   padding-top: 1.25rem;
   .publication-title {

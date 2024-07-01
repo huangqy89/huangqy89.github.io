@@ -23,6 +23,14 @@
       <p>
         <strong>{{ title }}:</strong> {% if post.excerpt %} {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} {% endif %} {% if post.venue %} <em>{{ post.venue }}</em> {% endif %} {% if post.date %} <strong>{{ post.date }}</strong> {% endif %}
       </p>
+      <details class="paper-list">
+        <summary>Related papers include</summary>
+        {% for paper in post.paper_list %}
+        <li>
+          {% if paper.title %} <a {% if paper.url %} href="{{paper.url}}" {% endif %} >{{ paper.title }}</a> {% endif %} 
+        </li>
+        {% endfor %}
+      </details>
     </article>
   </div>
 </div>
