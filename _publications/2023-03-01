@@ -1,0 +1,14 @@
+---
+title: "Rethinking Privacy Risks from Wireless Surveillance Camera"
+collection: publications
+permalink: "/publication/2023-03-01"
+excerpt: "Wireless home surveillance cameras are gaining popularity in elderly/baby care and burglary detection in an effort to make our life safer than ever before. However, even though the camera’s traffic is encrypted, attackers can still infer what the residents are doing at home. Although this security loophole has been reported, it does not attract much attention from the public, as it requires the attacker to be in close proximity to the camera and have some prior knowledge about the victims. Due to these requirements, the attacker has a low chance of success in the real world. In this article, we argue that the capability of attackers has been greatly underestimated. First, the attacker can leverage the characteristics of video transport protocols to recover the metadata of missing packets. Second, the attacker can build the inference model using the public datasets and adapt the model to the real traffic. "
+date: "2023-03-01"
+venue: "ACM Transactions on Sensor Networks (TOSN) 19 (3), 1-21, 2023"
+paperurl: /files/2023-03-01.pdf
+author: "<strong>Qianyi Huang</strong>, Youjing Lu, Zhicheng Luo, Hao Wang, Fan Wu, Guihai Chen, Qian Zhang"
+poster: /images/publications/2023-03-01.png
+remark:
+external_url: "https://dl.acm.org/doi/full/10.1145/3570504"
+anchor: "TOSN'23"
+---
