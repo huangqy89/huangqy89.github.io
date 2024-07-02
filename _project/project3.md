@@ -31,12 +31,12 @@ paper_list:
     url: https://ieeexplore.ieee.org/abstract/document/9204419
 
   - title: "Ecgadv: Generating adversarial electrocardiogram to misguide arrhythmia classification system"
-    authors: "H. Chen, C. Huang, **Q. Huang**,  etc."
+    authors: "H. Chen, C. Huang, **Q. Huang**, etc."
     venue: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) 34 (04), 3446-3453, 2020
     url: https://aaai.org/papers/03446-ecgadv-generating-adversarial-electrocardiogram-to-misguide-arrhythmia-classification-system/
 
   - title: "NICScatter: Backscatter as a Covert Channel in Mobile Devices"
-    authors: "Zhice Yang, **Q. Huang**, Qian Zhang"
+    authors: "Z. Yang, **Q. Huang**, Q. Zhang"
     venue: Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom), 2017
     url: https://dl.acm.org/doi/10.1145/3117811.3117814
 ---
