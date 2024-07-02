@@ -26,8 +26,8 @@
       <details class="paper-list">
         <summary>Related papers include</summary>
         {% for paper in post.paper_list %}
-        <li>
-          {% if paper.title %} { {paper.authors} }, <a {% if paper.url %} href="{{paper.url}}" {% endif %} >{{ paper.title }}</a>, { {paper.venue} } {% endif %} 
+        <li> 
+          <a {% if paper.url %} href="{{ paper.url }}" {% endif %} >{{ paper.title }}</a>, {{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}, {{ paper.venue }}
         </li>
         {% endfor %}
       </details>

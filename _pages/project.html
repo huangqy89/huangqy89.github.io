@@ -11,7 +11,9 @@ author_profile: true
     <p>No projects found.</p>
 {% else %}
     {% assign sorted_project = site.project | sort: 'order' %}
+    <div class="project-list">
     {% for post in sorted_project %}
     {% include project-item.html %}
     {% endfor %}
+    </div>
 {% endif %}

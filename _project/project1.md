@@ -6,15 +6,15 @@ excerpt: "Radio signals, traditionally used for data communication, are now emer
 poster: /images/project/project1.png
 paper_list:
   - title:  "Loradar: Enabling concurrent radar sensing and Lora communication"
-    authors: **Q. Huang**, Z. Luo, J. Zhang, etc.
-    venue: IEEE Transactions on Mobile Computing 21 (6), 2045-2057, 2020
+    authors: "**Q. Huang**, Z. Luo, J. Zhang, etc."
+    venue: "IEEE Transactions on Mobile Computing 21 (6), 2045-2057, 2020"
     url: /publications/#TMC'22
-  - title: "Side-lobe Can Know More: Towards Simultaneous Communication and Sensing for mmWave", 
-    authors: Q. Yang, H. Wu, **Q. Huang**, etc.
+  - title: "Side-lobe Can Know More: Towards Simultaneous Communication and Sensing for mmWave"
+    authors: "Q. Yang, H. Wu, **Q. Huang**, etc."
     venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT'23), Volume 6, Issue 4
     url: /publications/#IMWUT'22
   - title: "Joint Design of Sensing and Communication Systems for Smart Homes"
-    authors: **Q. Huang**, H. Chen, Q. Zhang
+    authors: "**Q. Huang**, H. Chen, Q. Zhang"
     venue: IEEE Network 34 (6), 191-197, 2020
     url: /publications/#IEEENetwork20
 ---
