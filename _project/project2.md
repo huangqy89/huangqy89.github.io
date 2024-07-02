@@ -56,7 +56,7 @@ paper_list:
     url: https://ieeexplore.ieee.org/document/7828094
 
   - title: "Battery-free sensing platform for wearable devices: The synergy between two feet"
-    authors: "**Q. Huang**, Yan Mei, Wei Wang, etc."
+    authors: "**Q. Huang**, Y. Mei, W. Wang, etc."
     venue: IEEE International Conference on Computer Communications (INFOCOM), 2016
     url: https://ieeexplore.ieee.org/document/7524543
 ---
