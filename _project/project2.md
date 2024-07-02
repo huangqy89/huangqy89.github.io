@@ -26,33 +26,33 @@ paper_list:
     url: https://dl.acm.org/doi/10.1145/3550285
 
   - title: "SMART: screen-based gesture recognition on commodity mobile devices"
-    authors: Z. Liao, Z. Luo, Q. Huang, etc.
+    authors: Z. Liao, Z. Luo, **Q. Huang**, etc.
     venue: Proceedings of the 27th Annual International Conference on Mobile Computing and Networking (MobiCom), 2021
     url: https://dl.acm.org/doi/abs/10.1145/3447993.3483243
 
   - title: "MousePath: Enhancing PC Web Pages through Smartphone and Optical Mouse"
-    authors: Z. Wang, Y. Yan, **Q. Huang**Zeyu Wang, Zhice Yang, Qianyi Huang, 
+    authors: Z. Wang, Y. Yan, **Q. Huang**, etc.
     venue: IEEE International Conference on Pervasive Computing and Communications (Percom), 2021
     url: https://ieeexplore.ieee.org/abstract/document/9439139
 
   - title: "Context-Aware Wireless-Based Cross-Domain Gesture Recognition"
     authors: H. Kang, Q. Zhang, **Q. Huang**
-    venue: IEEE Internet of Things Journal 8 (17), 13503-13515, 2021
+    venue: IEEE Internet of Things Journal 8 (17), 2021
     url: https://ieeexplore.ieee.org/document/9375468
 
   - title: "ALS-P: Light Weight Visible Light Positioning via Ambient Light Sensor"
     authors: Z. Wang, Z. Yang, **Q. Huang**, etc.
-    venue: IEEE Conference on Computer Communications (INFOCOM), 1306-1314, 2019
+    venue: IEEE Conference on Computer Communications (INFOCOM), 2019
     url: https://ieeexplore.ieee.org/document/8737575
 
   - title: "Smart-U: Smart Utensils Know What You Eat"
     authors: **Q. Huang**, Z. Yang, Q. Zhang
-    venue: IEEE Conference on Computer Communications (INFOCOM), 1439-1447, 2018
+    venue: IEEE Conference on Computer Communications (INFOCOM), 2018
     url: https://ieeexplore.ieee.org/document/8486266
 
   - title: "Your glasses know your diet: Dietary monitoring using electromyography sensors"
     authors: **Q. Huang**, W. Wang, Q. Zhang
-    venue: IEEE Internet of Things Journal 4 (3), 705-712, 2017
+    venue: IEEE Internet of Things Journal 4 (3), 2017
     url: https://ieeexplore.ieee.org/document/7828094
 
   - title: "Battery-free sensing platform for wearable devices: The synergy between two feet"
