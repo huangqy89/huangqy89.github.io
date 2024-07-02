@@ -414,6 +414,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   .archive-item-body {
     align-items: flex-start;
   }
+
+  article {
+    padding-top: 0;
+  }
+  article > p {
+    margin-top: 0;
+  }
 }
 
 .publication-item {
