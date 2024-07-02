@@ -27,7 +27,7 @@
         <summary>Related papers include</summary>
         {% for paper in post.paper_list %}
         <li>
-          {% if paper.title %} paper.authors, <a {% if paper.url %} href="{{paper.url}}" {% endif %} >{{ paper.title }}</a>, paper.venue {% endif %} 
+          {% if paper.title %} { {paper.authors} }, <a {% if paper.url %} href="{{paper.url}}" {% endif %} >{{ paper.title }}</a>, { {paper.venue} } {% endif %} 
         </li>
         {% endfor %}
       </details>
