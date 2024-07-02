@@ -8,13 +8,15 @@ paper_list:
   - title: "Side-lobe Can Know More: Towards Simultaneous Communication and Sensing for mmWave"
     authors: "Q. Yang, H. Wu, **Q. Huang**, etc."
     venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT'23), Volume 6, Issue 4
-    url: /publications/#IMWUT'22
+    url: https://dl.acm.org/doi/10.1145/3569498?cid=99658735164
+
   - title:  "Loradar: Enabling concurrent radar sensing and Lora communication"
     authors: "**Q. Huang**, Z. Luo, J. Zhang, etc."
     venue: "IEEE Transactions on Mobile Computing 21 (6), 2045-2057, 2020"
-    url: /publications/#TMC'22
+    url: https://ieeexplore.ieee.org/document/9248648
+
   - title: "Joint Design of Sensing and Communication Systems for Smart Homes"
     authors: "**Q. Huang**, H. Chen, Q. Zhang"
     venue: IEEE Network 34 (6), 191-197, 2020
-    url: /publications/#IEEENetwork20
+    url: https://ieeexplore.ieee.org/abstract/document/9143269
 ---
