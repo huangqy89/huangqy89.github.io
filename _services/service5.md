@@ -1,8 +1,9 @@
 ---
-title: "<strong>Reviewer</strong> for"
+title: "<strong>Student Travel Grant Chair and Session Chair</strong>"
 collection: services
 type: "Talk"
-permalink: /services/talk5
-venue: " IEEE Transactions on Mobile Computing (TMC), IEEE Journal on Selected Areas in Communications (JSAC), ACM Transactions on Sensor Networks (TOSN), IEEE Transactions on Vehicular Technology (TVT), IEEE Transactions on Information Forensics and Security (TIFS), IEEE Access, IEEE Transactions on Communications (TCOM), ACM Transactions on Cyber-Physical Systems (TCPS), UbiComp, ICPADS."
+permalink: /services/2024
+venue: "APNet 2024, Sydney, Australia"
+datetime: 2024.08
 order: 5
 ---

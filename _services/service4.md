@@ -2,8 +2,8 @@
 title: "<strong>Co-chair</strong>"
 collection: services
 type: "Talk"
-permalink: /services/2023-06
-venue: "视觉与学习青年学者研讨会 (VALSE 2023) 物联网与工业应用论坛，江苏无锡"
-datetime: 2023.06
+permalink: /services/2021
+venue: "CCF分布式计算大会(CCF Computility)大算力时代的计算机系统能力培养论坛，吉林长春"
+datetime: 2024.07
 order: 4
 ---

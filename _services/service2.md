@@ -1,9 +1,9 @@
 ---
-title: "<strong>Student Travel Grant Chair</strong>"
+title: "<strong>Co-chair</strong>"
 collection: services
 type: "Talk"
-permalink: /services/2024
-venue: "APNet 2024, Sydney, Australia"
-datetime: 2024.08
+permalink: /services/2023-06
+venue: "视觉与学习青年学者研讨会 (VALSE 2023) 物联网与工业应用论坛，江苏无锡"
+datetime: 2023.06
 order: 2
 ---

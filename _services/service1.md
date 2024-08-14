@@ -1,8 +1,8 @@
 ---
-title: "<strong>Technical Program Committee</strong>"
+title: "<strong>Reviewer</strong> for"
 collection: services
 type: "Talk"
-permalink: /services/2021
-venue: "IEEE ICDCS 2024, Globecom 2019-2024, BigCom 2021, WASA 2021-2022, EAI ICECI 2021, IEEE ICC 2022."
+permalink: /services/talk5
+venue: " IEEE Transactions on Mobile Computing (TMC), IEEE Journal on Selected Areas in Communications (JSAC), ACM Transactions on Sensor Networks (TOSN), IEEE Transactions on Vehicular Technology (TVT), IEEE Transactions on Information Forensics and Security (TIFS), IEEE Access, IEEE Transactions on Communications (TCOM), ACM Transactions on Cyber-Physical Systems (TCPS), UbiComp, ICPADS."
 order: 1
 ---
