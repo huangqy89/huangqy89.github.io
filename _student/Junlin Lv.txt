@@ -1,0 +1,6 @@
+---
+title: "Junlin Lv"
+excerpt: "Master, SYSU, 2024.09-"
+collection: student
+order: 15
+---
