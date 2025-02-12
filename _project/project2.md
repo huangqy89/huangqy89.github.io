@@ -7,7 +7,7 @@ poster: /images/project/project2.png
 paper_list:
   - title: "Gesture Recognition Using Visible Light on Mobile Devices"
     authors: "Z. Liao, Z. Luo, **Q. Huang**, etc."
-    venue: IEEE/ACM Transactions on Networking, 2024
+    venue: IEEE/ACM Transactions on Networking, Volume 32, Issue 4, August 2024
     url: https://ieeexplore.ieee.org/abstract/document/10458053/
 
   - title: "RIScan: RIS-aided Multi-user Indoor Localization Using COTS Wi-Fi"
