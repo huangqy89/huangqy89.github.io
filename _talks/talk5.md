@@ -5,5 +5,5 @@ type: "Talk"
 permalink: /talks/2021
 venue: "IEEE CyberC--Low Altitude Economics Panel，中国广州"
 order: 5
-datetime: 2024.10
+datetime: 2024/10
 ---

@@ -4,6 +4,6 @@ collection: talks
 type: "Talk"
 permalink: /talks/2023
 venue: "ACM MobiCom，美国盐湖城"
-datetime: 2017.10
+datetime: 2017/10
 order: 2
 ---
