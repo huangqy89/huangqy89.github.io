@@ -65,6 +65,9 @@
         {% if post.paperurl %}
         <p><a href="{{ post.paperurl }}"><i class="fa fa-file" aria-hidden="true"></i> PDF</a></p>
         {% endif %}
+        {% if post.code %}
+        <p><a href="{{ post.code }}"><i class="fa fa-file" aria-hidden="true"></i> Github</a></p>
+        {% endif %}
       </div>
 
     </article>
